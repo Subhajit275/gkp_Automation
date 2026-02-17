@@ -1,0 +1,58 @@
+{
+    "1": {
+        "media": "http:\/\/localhost\/wordpress-multisite\/wp-content\/uploads\/2026\/02\/logo.png",
+        "title": "Section Title",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "cta_primary_text": "Book Now",
+        "cta_primary_link": "https:\/\/hello.com",
+        "cta_secondary_text": "Chat Here",
+        "cta_secondary_link": "https:\/\/hello.com"
+    },
+    "2": {
+        "media": "http:\/\/localhost\/wordpress-multisite\/wp-content\/uploads\/2026\/01\/branding3.png",
+        "title": "Section Title For Test",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "cta_primary_text": "Primary CTA Test",
+        "cta_primary_link": "https:\/\/hello.com",
+        "cta_secondary_text": "Secondary CTA Test",
+        "cta_secondary_link": "https:\/\/hello.com"
+    },
+    "3": {
+        "media": "",
+        "title": "",
+        "content": "",
+        "cta_primary_text": "",
+        "cta_primary_link": "",
+        "cta_secondary_text": "",
+        "cta_secondary_link": ""
+    },
+    "4": {
+        "media": "http:\/\/localhost\/wordpress-multisite\/wp-content\/uploads\/2026\/02\/Screenshot_278.png",
+        "title": "",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "cta_primary_text": "",
+        "cta_primary_link": "",
+        "cta_secondary_text": "",
+        "cta_secondary_link": ""
+    },
+    "5": {
+        "media": "",
+        "title": "",
+        "content": "",
+        "cta_primary_text": "",
+        "cta_primary_link": "",
+        "cta_secondary_text": "",
+        "cta_secondary_link": ""
+    }
+}
+
+
+{
+    "site_title": "How to improve your self.",
+    "site_tagline": "Dummy tagline here",
+    "logo": "http:\/\/localhost\/wordpress-multisite\/wp-content\/uploads\/2026\/02\/Screenshot_278.png",
+    "primary_color": "#2271b1",
+    "secondary_color": "#72aee6",
+    "title_font": "Playfair Display",
+    "body_font": "Open Sans"
+}

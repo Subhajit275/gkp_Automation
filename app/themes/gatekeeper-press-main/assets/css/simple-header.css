@@ -1,0 +1,154 @@
+/* =====================================================
+   TEMPLATE SIMPLE – HEADER (SITE ID 2)
+   Color: #557b5f
+===================================================== */
+
+.simple-header {
+  background: #557b5f;
+  color: #fff;
+}
+
+/* ---------- TOP AREA ---------- */
+.simple-header-top {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* CENTER */
+  text-align: center;
+}
+
+/* LOGO / TITLE (DESKTOP BASE = 990px) */
+.simple-logo img {
+  max-width: 420px;   /* 🔥 desktop default */
+  height: auto;
+  margin-bottom: 18px;
+}
+
+/* SOCIAL ICONS */
+.simple-social {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.simple-social .social-icon {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ICONS */
+.simple-social .social-icon::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0) invert(1);
+}
+
+.social-icon.instagram::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/insta.png');
+}
+.social-icon.twitter::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/x.png');
+}
+.social-icon.facebook::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/btr.png');
+}
+.social-icon.youtube::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/youtube-1.png');
+}
+
+/* ---------- MENU BAR ---------- */
+.simple-navigation {
+  border-top: 4px solid #fff;
+  margin-top: 25px;
+  padding: 14px 20px;
+  border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.simple-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* 2-line allow */
+}
+
+.simple-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.simple-menu li.current-menu-item a {
+  border-bottom: 2px solid #fff;
+}
+/* FORCE UPPERCASE – TEMPLATE SIMPLE MENU */
+header.simple-header nav.simple-navigation ul.simple-menu li a {
+  text-transform: uppercase !important;
+}
+
+/* =====================================================
+   RESPONSIVE BREAKPOINTS (DESKTOP = 990px)
+===================================================== */
+
+/* ---- BELOW DESKTOP ---- */
+@media (max-width: 2560px) and (min-width: 769px) {
+  .simple-logo img {
+    max-width: 990px !important;
+    height: auto;
+  }
+}
+@media (max-width: 767px) and (min-width: 525px) {
+  .simple-logo img {
+    max-width: 480px !important;
+    height: auto;
+  }
+}
+
+/* ---- TABLET (2 LINE MENU) ---- */
+@media (max-width: 525px) {
+  .simple-logo img {
+    max-width: 300px;
+  }
+
+  .simple-menu {
+    row-gap: 10px;
+  }
+}
+
+/* ---- MOBILE (VERTICAL MENU) ---- */
+@media (max-width: 525px) {
+
+  .simple-header-top {
+    padding: 30px 20px 15px;
+  }
+  .simple-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+@media (max-width: 375px) {
+.simple-logo img {
+    max-width: 230px !important;
+  }
+@media (max-width: 1024px) {
+  header.simple-header nav.simple-navigation ul.simple-menu {
+    gap: 15px !important;
+  }
+}

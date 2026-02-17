@@ -1,0 +1,166 @@
+/* =====================================================
+   FIX: Dynamic Header → Match Page Header EXACTLY
+   Template: Minimal
+===================================================== */
+
+.minimal-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* =========================
+   TOP ROW (LOGO + MENU)
+========================= */
+
+.minimal-header-top {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.minimal-logo img {
+  max-height: 80px;
+  width: auto;
+}
+
+/* NAV WRAPPER */
+.minimal-navigation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 145px; /* desktop balance */
+}
+
+/* MENU */
+.minimal-menu {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.minimal-menu li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.minimal-menu li.current-menu-item a {
+  border-bottom: 2px solid #000;
+}
+
+/* =========================
+   GREEN SOCIAL BAR
+========================= */
+
+.minimal-social-bar {
+  background: #6b7434;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.minimal-social-bar .social-circle {
+  width: 36px;
+  height: 36px;
+  background: #000;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ICONS */
+.social-circle::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0) invert(1);
+}
+
+.social-circle.instagram::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/insta.png');
+}
+.social-circle.twitter::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/x.png');
+}
+.social-circle.facebook::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/btr.png');
+}
+.social-circle.youtube::before {
+  background-image: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/02/youtube-1.png');
+}
+
+/* =================================================
+   TABLET FIX (1386px → 426px)
+   → MENU IN 2 LINES, CENTERED
+================================================= */
+
+@media (max-width: 1386px) {
+
+  .minimal-header-top {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .minimal-navigation {
+    padding-left: 0;
+  }
+
+  .minimal-menu {
+    flex-wrap: wrap;            /* ✅ ALLOW WRAP */
+    justify-content: center;
+    text-align: center;
+    row-gap: 14px;
+    column-gap: 26px;
+  }
+}
+
+/* =================================================
+   MOBILE FIX (425px and below)
+   → MENU VERTICAL + CENTER
+================================================= */
+
+@media (max-width: 425px) {
+
+  .minimal-header-top {
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .minimal-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .minimal-navigation {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .minimal-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .minimal-menu li a {
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
+  }
+}
