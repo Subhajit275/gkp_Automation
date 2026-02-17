@@ -1,0 +1,153 @@
+/* HEADER */
+.site-header {
+  position: relative;
+  /*background: url('../images/header-bg.jpg') center/cover no-repeat;*/
+  background: url('https://msn.gatekeeperdashboard.com/template-clean/wp-content/uploads/sites/4/2026/01/author-3-768x49-1.png') center/cover no-repeat;
+
+}
+
+.header-bg {
+  background: rgba(255,255,255,0.9);
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.site-logo img {
+  max-width: 606px;
+  margin-bottom: 10px;
+}
+
+.primary-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.primary-menu li a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #111;
+}
+
+.primary-menu li.current-menu-item a {
+  border-bottom: 2px solid #6519ea;
+}
+
+.header-social {
+  margin-top: 25px;
+}
+
+.header-social a {
+  display: inline-block;
+  margin: 0 6px;
+  padding: 6px 10px;
+  background: #6519ea;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  padding: 25px 15px;
+  background: #fff;
+}
+
+.footer-logo img {
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+
+.footer-credit {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-credit a {
+  color: #000;
+  text-decoration: underline;
+}
+/* ===== MOBILE HEADER (425px and below) ===== */
+@media (max-width: 425px) {
+
+  .site-header {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header-inner {
+    padding: 20px 15px;
+  }
+
+  /* LOGO */
+  .site-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  /* MENU */
+  .primary-menu {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .primary-menu li a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 0;
+  }
+
+  .primary-menu li.current-menu-item a {
+    border-bottom: 2px solid #6519ea;
+  }
+
+  /* SOCIAL ICONS */
+  .header-social {
+    margin-top: 18px;
+  }
+
+  .header-social a {
+    margin: 0 6px;
+    padding: 8px 11px;
+    font-size: 14px;
+  }
+}
+/*  .header-social a {*/
+/*    margin: 0 6px;*/
+/*    padding: 8px 11px;*/
+/*    font-size: 14px;*/
+/*  }*/
+/*}*/
+/* ===============================
+   TEMPLATE SIMPLE – FOOTER (SITE 2)
+   =============================== */
+
+.simple-footer {
+  background-color: #557b5f;
+  padding: 24px 16px;
+}
+
+.simple-footer-inner {
+  text-align: center;
+}
+
+.simple-footer-text {
+  margin: 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
